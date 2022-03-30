@@ -10,13 +10,20 @@ function initMap() {
 	
 	
 // Base map layer
-let osmLayer = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxNativeZoom: 19,
+	maxZoom: 19,
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors'
 });
 
 let esriAttr = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
 let esriUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
-esriLayer = L.tileLayer(esriUrl, {  id: 'mapbox.streets',   attribution: esriAttr });
+esriLayer = L.tileLayer(esriUrl, {  
+	maxNativeZoom: 19,
+	maxZoom: 19,
+	id: 'mapbox.streets',   
+	attribution: esriAttr 
+});
 
 // control de capas
 var baseMaps = {
@@ -27,6 +34,7 @@ var baseMaps = {
 var map = L.map('map', {
 	center: [39,0],
 	zoom: 8,
+	//maxZoom:19,
 	scrollWheelZoom: false,
 	layers: [esriLayer,osmLayer ]
 });
