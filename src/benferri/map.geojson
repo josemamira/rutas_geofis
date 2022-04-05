@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "chapter": "1. BENFERRI Y LA RAMBLA",
+        "zoom": 18,
+        "image": "img/Parada_1.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r2_p1/",
+        "description": "La Rambla de Abanilla-Benferri representa un excelente ejemplo de rambla mediterránea, tanto en su sentido hidrológico como geomorfológico, con caudales intermitentes, generalmente escasos, y crecidas ocasionales de elevada magnitud, en ocasiones con volúmenes extraordinarios. ¿Cómo se adaptaron las sociedades tradicionales a este hecho?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9599949642918808,
+          38.139712393032426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "chapter": "2. EL PAREDÓN",
+        "zoom": 19,
+        "image": "img/Parada_2.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r2_p2/",
+        "description": "El paredón cumplía un papel nuclear en la organización del último tramo del sistema hidráulico, a modo de gran infraestructura de derivación y, sobre todo, de muro de defensa que trataba de impedir la circulación de las aguas hacia las fértiles y pobladas huertas de la vega baja del río Segura. Es una obra ya citada en el siglo XIII y con claras consecuencias geomorfológicas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9631492570727639,
+          38.139172363888676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "chapter": "3. LA RAFA DE BENFERREJO",
+        "zoom": 18,
+        "image": "img/Parada_3.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r2_p3/",
+        "description": "Se trata de un ejemplo de sistema de derivación de aguas de avenida, a partir de la cual nacía una boquera que, con distintas bifurcaciones, permitía el riego con turbias de una serie de bancales cercanos a Benferri. Formaba parte de un complejo sistema que, solo en el tramo bajo de la rambla, laminaba las avenidas a lo largo de más de 2000 ha."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9743501619192501,
+          38.14298640690552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "chapter": "4. EL CAUCE ESTRANGULADO Y LOS FENÓMENOS DE EROSIÓN",
+        "zoom": 18,
+        "image": "img/Parada_4.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r2_p4/",
+        "description": "La agricultura tradicional convivía con la dinámica activa de los márgenes del cauce. Los importantes procesos de roturación activados a partir de la década de 1970 y los más recientes intentos de urbanización, produjeron un proceso de estrangulamiento y artificialización del cauce."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9791352228019445,
+          38.14352643228124
+        ]
+      }
+    }
+  ]
+}
