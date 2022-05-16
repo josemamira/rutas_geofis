@@ -4,7 +4,7 @@ Itinerario por la Universidad de Alicante [enlace](https://josemamira.github.io/
 
 Itinerario rambla de Abanilla - Benferri [enlace](https://josemamira.github.io/rutas_geofis/src/benferri/) 
 
-Itinerario serra Gelada (Benidorm) [enlace](https://josemamira.github.io/rutas_geofis/src/sierra_gelada/) 
+Itinerario serra Gelada (L'Alfàs del Pi) [enlace](https://josemamira.github.io/rutas_geofis/src/sierra_gelada/) 
 
 
 ## Rutas enlazadas
