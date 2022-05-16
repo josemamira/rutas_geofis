@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "chapter": "1. Acceso al Parque Natural desde l’Albir",
+        "zoom": 18,
+        "image": "img/parada1.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p1/",
+        "description": "La entrada al Parque Natural de la Serra Gelada desde l’Albir representa un punto ideal para visualizar las intensas transformaciones turísticas que ha sufrido este antiguo espacio rural, donde se producía el contacto entre los campos agrícolas y la superficie forestal y ganadera que ocupaban los glacis y abanicos del reverso noroccidental de la sierra. Es también el mejor lugar para introducir los valores geomorfológicos, ambientales y culturales de incomparable relieve litoral."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0629668369989269,
+          38.567972480862075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2",
+        "chapter": "2. Canyada",
+        "zoom": 18,
+        "image": "img/parada2.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p2/",
+        "description": "La intensidad de los aprovechamientos agrícolas y la necesidad de aprovechar el recurso edáfico y la mayor concentración de humedad en los secanos predominantes en la sierra, generaron el aprovechamiento de barrancos sobre los que se construyeron terrazas de piedra seca para retener sedimentos y favorecer la formación de campos de cultivo. Las cañadas o canyades tuvieron (y tienen) una importante repercusión geomorfológica."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.062296284745111834,
+          38.566525442229825
+        ]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {      
+        "id": 3,
+        "chapter": "3. Mirador del tunel",
+        "zoom": 18,
+        "image": "img/parada3.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p3/",
+        "description": "La Serra Gelada se localiza en la parte más meridional de los dominios externos de la Cordillera Bética; más concretamente, es el último escalón emergido de lo que se denomina, tradicionalmente, Prebético Interno o Prebético de Alicante. En detalle, la sierra se puede conceptuar como un horst-cresta, un bloque de planta rectangular levantado por fallas ligadas a la tectónica de fractura distensiva finimiocena."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05748041223450022,
+          38.56771525949487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "chapter": "4. El Faro / Punta de la Bombarda",
+        "zoom": 18,
+        "image": "img/parada4.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p4/",
+        "description": "Esta atalaya privilegiada de la bahía de Altea y de la propia Serra Gelada, deriva de la tectónica de fractura que afecta a ambos extremos de la sierra. Desde aquí se pueden reconocer alguno de los accidentes tectónicos más determinantes de este enclave, que ha sido utilizado históricamente como punto de vigilancia a lo largo de la historia debido a su acusado carácter semafórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05196734442969888,
+          38.56442310745788
+        ]
+      }
+    },    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "chapter": "5. Las minas de ocre rojo",
+        "zoom": 18,
+        "image": "img/parada5.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p5/",
+        "description": "Aprovechando diversos afloramientos de este mineral utilizado para fabricar pigmentos, en este extremo septentrional de la sierra, entre mediados del s. XIX y principios del XX (tal vez con orígenes anteriores) existió una modesta explotación minera que extraía el mineral intercalado entre las calizas con rudistas y las calcarenitas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0498615637503649,
+          38.56329571468036
+        ]
+      }
+    }
+  ]
+}
