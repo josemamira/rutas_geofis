@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "chapter": "1. La Veleta",
+        "zoom": 18,
+        "image": "img/parada1.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r4_p1/",
+        "description": "El caso de la urbanización 'La Veleta' representa un triste ejemplo de la presión que la actividad urbanística ejerce sobre especies y hábitats protegidos. Las recientes obras de acondicionamiento para la instalación de un establecimiento hostelero en primera línea de playa ha supuesto la paralización de las actividades al eliminarse numerosos ejemplares de Helianthemum caput-felis, en una parcela que se encontraba en recuperación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7011409153160619,
+          37.96216690034006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "chapter": "2. Cala Ferris",
+        "zoom": 18,
+        "image": "img/parada2.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r4_p2/",
+        "description": "La Finca de Lo Ferris constituye una explotación agrícola al sur de la ciudad de Torrevieja que fue clasificada como Suelo No Urbanizable (SNU) en el PGOU de 1992: parte como SNU común y para como SNU protegido (palmeral). Con la aprobación del Plan de Acción Territorial de la Infraestructura Verde del Litoral de la Comunitat Valenciana (PATIVEL), los terrenos pasaron a ser clasificados como SNU de Protección del Litoral, lo que conlleva su inclusión en la infraestructura verde regional y su mantenimiento en situación básica rural, preservándolos del proceso urbanizador."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7041425386358184,
+          37.95277848767284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "chapter": "3. Cala La Mosca",
+        "zoom": 18,
+        "image": "img/parada3.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r4_p3/",
+        "description": "La Cala La Mosca es uno de los pocos espacios sin urbanizar del litoral sur de Alicante. Alberga un elevado valor ambiental que, sin embargo, está sometido a fuertes presiones derivadas del proceso urbanizador, los vertidos, el pisoteo descontrolado y la proliferación de especies invasoras."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.7076045555549536,
+          37.941785493646215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "chapter": "4. Cantil de Cala La Mosca",
+        "zoom": 18,
+        "image": "img/parada4.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r4_p4/",
+        "description": "Las condiciones morfológicas y litológicas del acantilado medio característico de este tramo litoral, generan una dinámica regresiva muy activa, con desprendimientos recientes fácilmente observables."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7165416301176084,
+          37.93818518747302
+        ]
+      }
+    }   
+  ]
+}

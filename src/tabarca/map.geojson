@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "chapter": "1. Port de l'illa",
+        "zoom": 18,
+        "image": "img/parada1.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r5_p1/",
+        "description": "En las inmediaciones del puerto podremos contextualizar, desde el punto de vista morfoestructural, tanto la isla como su continente vecino, es decir, la terminación oriental del dominio interno de la cordillera Bética, como resalte a continuación de la Fosa Intrabética, que ha emergido progresivamente hasta el Cuaternario en distintas fases hasta época reciente: una rasa de edad tirreniense fosilizada por los conglomerados de la misma edad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4798292101023664,
+          38.16651261941019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "chapter": "2. Calas de la Cova del Llop Marí y dels Birros",
+        "zoom": 18,
+        "image": "img/parada2.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r5_p2/",
+        "description": "El frente meridional del sector de la población se caracteriza por un trazado sinuoso con los pronunciados entrantes de las calas de la Cova del Llop Marí y la dels Birros, en la que se encuentra la Cova de les Armes. Allí, las formas costeras dominantes son los acantilados de tipo plunging, bien desarrollados coincidiendo con la presencia de las dolomías negras triásicas, en los que rara vez se rebasan los cinco metros de desnivel. Lo más característico de estos acantilados tipo plunging es la existencia de una balma basal, perfectamente marcada y bastante regular."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4823451221589563,
+          38.16531691913322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "chapter": "3. La Cantera-Porta de Sant Gabriel o la Trancada",
+        "zoom": 18,
+        "image": "img/parada3.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r5_p3/",
+        "description": "Las calcarenitas y calcirruditas bioclásticas del Mioceno Superior constituyen La Cantera, denominación que expresa su condición de lugar de extracción de los sillares utilizados en la construcción de las murallas, las puertas  y la iglesia. Una extracción tan importante, que se puede hablar de una plataforma mesolitoral antropogénica."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.48449625378919503,
+          38.16672560805416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "chapter": "4. Platja Del Migdia-La Purissimeta",
+        "zoom": 18,
+        "image": "img/parada4.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r5_p4/",
+        "description": "Tanto La Caleta y el sector de La Mina, como la Platja del Migdia, están localizadas en la parte más estrecha y baja de la isla, debido a la acción de un bloque hundido mediante dos fallas normales de orientación contraria. Son playas cuya dinámica está ligada, fundamentalmente, a flujos perpendiculares al trazado de la costa; mientras que en la falla entre La Mina y La Purissimeta se aprecia un interesante contacto entre litofacies y, en discordancia intraerosiva, entre éstos y loas materiales tirrenienses suprayacentes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4775458305120681,
+          38.164770455242135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "chapter": "5. La Galera-Platja de la Faroleta y Platja Gran",
+        "zoom": 18,
+        "image": "img/parada5.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r5_p5/",
+        "description": "En la costa meridional situada el este de la Purissimeta, alternan tramos con ofitas y otros con las margas y dolomías margosas amarillas; en las segundas, el acantilado pierde la verticalidad y los procesos marinos ceden protagonismo a los subaéreos, especialmente en Els Rojos. Mientras que, en las ofitas, la morfología predominante es la de acantilado con plataforma de abrasión que, en la mayor parte de los casos presenta acumulaciones de cantos y arenas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.47130701234257255,
+          38.16267000845917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "chapter": "6. Punta Falcó-La Naueta",
+        "zoom": 18,
+        "image": "img/parada6.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r5_p6/",
+        "description": "Las ofitas son los materiales que constituyen La Naueta, La Nau y escollos más orientales. A pesar de que, en principio, es una roca que se considera competente, estas diabasas, por efecto de la tectónica, aparecen enteramente trituradas y, por tanto, predispuestas a su disgregación. La acción del oleaje ha incrementado más, si cabe, el progresivo arrasamiento de esta parte de la isla, donde está declarada una microrreserva de flora 'Illot de la Nau'."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.46512183835338233,
+          38.16317614574825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "chapter": "7. La Peladilla-L'escull Foradat",
+        "zoom": 18,
+        "image": "img/parada7.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r5_p7/",
+        "description": "El centro de la isla está recubierto por conglomerados, limos rojos y arenas y recibe la expresiva denominación de El Camp. Este espacio se dedicó, fundamentalmente, a un aprovechamiento agrícola que podemos calificar de precario debido a la pedregosidad, la escasez de suelo y de agua, junto a la frecuencia de vientos salinos. También se encuentran alguno de los aljibes  con los que contaba la población para almacenar las exiguas precipitaciones, por debajo de los 300 mm anuales, e interesantes poblamientos vegetales "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.47097933425948435,
+          38.165432279052204
+        ]
+      }
+    }    
+  ]
+}
