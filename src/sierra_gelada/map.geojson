@@ -59,44 +59,46 @@
         ]
       }
     },
-    {
+        {
       "type": "Feature",
       "properties": {
         "id": 4,
-        "chapter": "4. El Faro / Punta de la Bombarda",
-        "zoom": 18,
-        "image": "img/parada4.jpg",
-        "source-credit": "Leer más",
-        "source-link": "https://www.35geofis.ua.es/r3_p4/",
-        "description": "Esta atalaya privilegiada de la bahía de Altea y de la propia Serra Gelada, deriva de la tectónica de fractura que afecta a ambos extremos de la sierra. Desde aquí se pueden reconocer alguno de los accidentes tectónicos más determinantes de este enclave, que ha sido utilizado históricamente como punto de vigilancia a lo largo de la historia debido a su acusado carácter semafórico."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.05196734442969888,
-          38.56442310745788
-        ]
-      }
-    },    
-    
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 5,
-        "chapter": "5. Las minas de ocre rojo",
+        "chapter": "4. Las minas de ocre rojo",
         "zoom": 18,
         "image": "img/parada5.jpg",
         "source-credit": "Leer más",
-        "source-link": "https://www.35geofis.ua.es/r3_p5/",
+        "source-link": "https://www.35geofis.ua.es/r3_p4/",
         "description": "Aprovechando diversos afloramientos de este mineral utilizado para fabricar pigmentos, en este extremo septentrional de la sierra, entre mediados del s. XIX y principios del XX (tal vez con orígenes anteriores) existió una modesta explotación minera que extraía el mineral intercalado entre las calizas con rudistas y las calcarenitas."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.0498615637503649,
+         -0.05196734442969888,
+          38.56442310745788
+          
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "chapter": "5. El Faro / Punta de la Bombarda",
+        "zoom": 18,
+        "image": "img/parada4.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p5/",
+        "description": "Esta atalaya privilegiada de la bahía de Altea y de la propia Serra Gelada, deriva de la tectónica de fractura que afecta a ambos extremos de la sierra. Desde aquí se pueden reconocer alguno de los accidentes tectónicos más determinantes de este enclave, que ha sido utilizado históricamente como punto de vigilancia a lo largo de la historia debido a su acusado carácter semafórico."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.0498615637503649,
           38.56329571468036
         ]
       }
-    }
+    }  
+    
+
   ]
 }
