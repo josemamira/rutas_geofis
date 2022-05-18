@@ -9,36 +9,36 @@ $('div#contents').scroll(function() {
 function initMap() {
 	
 	
+
 // Base map layer
-let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+let topograficoICV = L.tileLayer( "https://terramapas.icv.gva.es/mapabase_topografico/wmts/1.0.0/topografico_continuo_epsg3857/default/GMEPSG3857/{z}/{y}/{x}.png" ,{
 	maxNativeZoom: 19,
 	maxZoom: 19,
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors'
-});
+	attribution: "<a href='https://idev.gva.es/es'>IDEV</a>&copy;ICV"
+	}
+);
 
-let esriAttr = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
 let esriUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
 esriLayer = L.tileLayer(esriUrl, {  
 	maxNativeZoom: 19,
 	maxZoom: 19,
 	id: 'mapbox.streets',   
-	attribution: esriAttr 
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community' 
 });
 
 // control de capas
-var baseMaps = {
+var baseMaps = {	
 	"Ortofoto": esriLayer,
-	"Mapa (OSM)": osmLayer
+	"topográfico": topograficoICV
 };
 
 var map = L.map('map', {
-	center: [38.14042,-0.96921], 
-	zoom: 16,
+	center: [39,0],
+	zoom: 8,
 	//maxZoom:19,
 	scrollWheelZoom: false,
-	layers: [esriLayer,osmLayer ]
+	layers: [esriLayer,topograficoICV]
 });
-
 
 	
 	
