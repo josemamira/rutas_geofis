@@ -9,40 +9,56 @@ $('div#contents').scroll(function() {
 function initMap() {
 	
 	
-// Base map layer
 
-let cycleattrib = '<b>OpenCycleMap.org</b>'
-                   ;
-
-
+/*
+// LAYERS NO USADAS Y COMENTADAS
+// OpenCycleMap
+let cycleattrib = '<b>OpenCycleMap.org</b>';
 let cycle = L.tileLayer('https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=15d0d1c29d9f47389a6f8e2e5635f062', {
 	maxNativeZoom: 19,
 	maxZoom: 19,
     attribution: cycleattrib
 });
 
+// IDEV WMS para leaflet. Funciona pero es muy lento. Mejor usar el idevWMS
+var url = "http://terramapas.icv.gva.es/cgi-bin/mapserv6.fcgi?map=/srv_apl/mapserv/servicios/01_cartografia/01_series/map/topografico_continuo.map";
+var idevWMS = L.tileLayer.wms( url ,{
+	layers: "MAPA_BASE_CONTINUO",
+	//style: "normal",
+	//tilematrixSet: "ETRS89CV",
+	format: "image/png",
+	attribution: "<a href='https://idev.gva.es/es'>IDEV</a>&copy;ICV"
+	}
+);
 
-
-
+// OSM
 let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxNativeZoom: 19,
 	maxZoom: 19,
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors'
 });
+*/
 
-let esriAttr = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
+// Base map layer
+let topograficoICV = L.tileLayer( "https://terramapas.icv.gva.es/mapabase_topografico/wmts/1.0.0/topografico_continuo_epsg3857/default/GMEPSG3857/{z}/{y}/{x}.png" ,{
+	maxNativeZoom: 19,
+	maxZoom: 19,
+	attribution: "<a href='https://idev.gva.es/es'>IDEV</a>&copy;ICV"
+	}
+);
+
 let esriUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
 esriLayer = L.tileLayer(esriUrl, {  
 	maxNativeZoom: 19,
 	maxZoom: 19,
 	id: 'mapbox.streets',   
-	attribution: esriAttr 
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community' 
 });
 
 // control de capas
-var baseMaps = {
+var baseMaps = {	
 	"Ortofoto": esriLayer,
-	"Mapa (OSM)": cycle
+	"topográfico": topograficoICV
 };
 
 var map = L.map('map', {
@@ -50,7 +66,7 @@ var map = L.map('map', {
 	zoom: 8,
 	//maxZoom:19,
 	scrollWheelZoom: false,
-	layers: [esriLayer,cycle ]
+	layers: [esriLayer,topograficoICV]
 });
 
 
