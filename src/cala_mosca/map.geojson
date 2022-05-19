@@ -10,7 +10,7 @@
         "image": "img/parada1.jpg",
         "source-credit": "Leer más",
         "source-link": "https://www.35geofis.ua.es/r4_p1/",
-        "description": "El caso de la urbanización 'La Veleta' representa un triste ejemplo de la presión que la actividad urbanística ejerce sobre especies y hábitats protegidos. Las recientes obras de acondicionamiento para la instalación de un establecimiento hostelero en primera línea de playa ha supuesto la paralización de las actividades al eliminarse numerosos ejemplares de Helianthemum caput-felis, en una parcela que se encontraba en recuperación."
+        "description": "El caso de la urbanización <strong>La Veleta</strong> representa un triste ejemplo de la presión que la actividad urbanística ejerce sobre especies y hábitats protegidos. Las recientes obras de acondicionamiento para la instalación de un establecimiento hostelero en primera línea de playa ha supuesto la paralización de las actividades al eliminarse numerosos ejemplares de <strong><i>Helianthemum caput-felis</i></strong>, en una parcela que se encontraba en recuperación."
       },
       "geometry": {
         "type": "Point",
@@ -29,7 +29,7 @@
         "image": "img/parada2.jpg",
         "source-credit": "Leer más",
         "source-link": "https://www.35geofis.ua.es/r4_p2/",
-        "description": "La Finca de Lo Ferris constituye una explotación agrícola al sur de la ciudad de Torrevieja que fue clasificada como Suelo No Urbanizable (SNU) en el PGOU de 1992: parte como SNU común y para como SNU protegido (palmeral). Con la aprobación del Plan de Acción Territorial de la Infraestructura Verde del Litoral de la Comunitat Valenciana (PATIVEL), los terrenos pasaron a ser clasificados como SNU de Protección del Litoral, lo que conlleva su inclusión en la infraestructura verde regional y su mantenimiento en situación básica rural, preservándolos del proceso urbanizador."
+        "description": "La <strong>Finca de Lo Ferris</strong> constituye una explotación agrícola al sur de la ciudad de Torrevieja que fue clasificada como Suelo No Urbanizable (SNU) en el PGOU de 1992: parte como SNU común y para como SNU protegido (palmeral). Con la aprobación del Plan de Acción Territorial de la Infraestructura Verde del Litoral de la Comunitat Valenciana (<strong>PATIVEL</strong>), los terrenos pasaron a ser clasificados como SNU de Protección del Litoral, lo que conlleva su inclusión en la infraestructura verde regional y su mantenimiento en situación básica rural, preservándolos del proceso urbanizador."
       },
       "geometry": {
         "type": "Point",
