@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "chapter": "1. Mirador del Clot",
+        "zoom": 18,
+        "image": "img/parada1.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r6_p1/",
+        "description": "El espacio comprendido entre la Playa de l’Altet y la Playa del Carabassí formaban un gran sistema dunar que alcanzaban las 170 ha. La construcción de la urbanización de los Arenales del Sol supuso la ruptura del extenso campo dunar configurando dos tramos aislados de menor extensión. Desde la década de los 50 se han ido produciendo cambios en esta área, sustituyendo los espacios naturales por infraestructuras y urbanización."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5225948894307353,
+          38.24259246519603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "chapter": "2. El Clot de Galvany",
+        "zoom": 18,
+        "image": "img/parada2.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r6_p2/",
+        "description": "Los saladares y charcas de Bassars-Clot de Galvany conforman un espacio natural inundable entre los términos municipales de Elx y Santa Pola, en la zona litoral septentrional de la comarca del Baix Vinalopó. Incluido dentro del Catálogo de Zonas Húmedas de la Comunitat Valenciana e incorporado a la Red Natura 2000 (LIC y ZEPA), desde 2005 es Paraje Natural Municipal."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5212178864423618,
+          38.238571963299755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "chapter": "3. Mirador Serra de Santa Pola",
+        "zoom": 18,
+        "image": "img/parada3.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r6_p3/",
+        "description": "La Serra de Santa Pola contiene un elevado valor botánico. En este punto podremos observar la microrreserva vegetal del Barranc de L’Escolgador de Crist, donde la orientación y las paredes verticales permiten una densidad vegetal considerable en el curso alto del barranco, gracias a la humedad acumulada proveniente de las brisas marinas. Junto a ello, la presión urbanística ha generado un intenso conflicto entre planeamiento y conservación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5131766238155525,
+          38.20740486055324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "chapter": "4. Canalet Tio Joan",
+        "zoom": 18,
+        "image": "img/parada4.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r6_p4/",
+        "description": "Antigua finca agrícola <strong>Finca de Don Juan</strong>, catalogada como enclavado en el seno del M.U.P. nº 51. Es un claro ejemplo de espacio transformado por las actividades agrícolas y silvícolas como aprovechamiento del monte. El abandono de las actividades rurales, las repoblaciones forestales y los nuevos usos asociados asociados a actividades recreativas, dominan la dinámica natural desde finales de los años 80 del siglo XX."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5246266373341169,
+          38.217756099482436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "chapter": "5. Barranc del Salt",
+        "zoom": 18,
+        "image": "img/parada5.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r6_p5/",
+        "description": "Ejemplo por antonomasia del mosaico de actividades antrópicas desarrolladas en el Monte de Santa Pola y, sobremanera, de la representación de la evolución del conjunto de formaciones vegetales que integran el paisaje vegetal del mismo. Destaca la presencia de maquias totalmente desarrolladas, así como, la ejemplificación de un espacio crítico -su abanico aluvial- de cara a la gestión por afección de fenómenos de lluvias intensas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5370452650722409,
+          38.21864959695847
+        ]
+      }
+    }    
+  ]
+}
