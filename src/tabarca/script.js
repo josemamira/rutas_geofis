@@ -58,7 +58,10 @@ $.getJSON("ruta.geojson", function (data) {
 
 ruta.addTo(map);
 
-
+map.fitBounds([
+    [38.1692,-0.4897],
+    [38.1577,-0.4567]
+]);
   
   // This loads the GeoJSON map data file from a local folder
   $.getJSON('map.geojson', function(data) {
