@@ -60,7 +60,7 @@ ruta.addTo(map);
 
 map.fitBounds([
     [38.1692,-0.4897],
-    [38.1577,-0.4567]
+    [38.15929,-0.46284] 
 ]);
   
   // This loads the GeoJSON map data file from a local folder
