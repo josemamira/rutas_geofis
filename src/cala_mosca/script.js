@@ -32,8 +32,8 @@ var baseMaps = {
 };
 
 var map = L.map('map', {
-	center: [39,0],
-	zoom: 8,
+	center: [37.9470,-0.6994],
+	zoom: 15,
 	//maxZoom:19,
 	scrollWheelZoom: false,
 	layers: [esriLayer,topograficoICV]
