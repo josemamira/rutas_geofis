@@ -43,7 +43,7 @@ let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 let topograficoICV = L.tileLayer( "https://terramapas.icv.gva.es/mapabase_topografico/wmts/1.0.0/topografico_continuo_epsg3857/default/GMEPSG3857/{z}/{y}/{x}.png" ,{
 	maxNativeZoom: 19,
 	maxZoom: 19,
-	attribution: "<a href='https://idev.gva.es/es'>IDEV</a>&copy;ICV"
+	attribution: "| <a href='https://idev.gva.es/es'>IDEV&copy;ICV</a> | Develop by <a href='https://github.com/josemamira'>José Manuel Mira</a>"
 	}
 );
 
