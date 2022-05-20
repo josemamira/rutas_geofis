@@ -33,8 +33,8 @@ var baseMaps = {
 };
 
 var map = L.map('map', {
-	center: [39,0],
-	zoom: 8,
+	center: [38.1403,-0.9660],
+	zoom: 38.1403/-0.9660,
 	//maxZoom:19,
 	scrollWheelZoom: false,
 	layers: [esriLayer,topograficoICV]
@@ -80,6 +80,10 @@ $.getJSON("ruta_benferri.geojson", function (data) {
 
 ruta.addTo(map);
 
+map.fitBounds([
+    [38.14853,-0.98593], 
+    [38.13553,-0.95503] 
+]);	
 
   
   // This loads the GeoJSON map data file from a local folder
