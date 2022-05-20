@@ -13,7 +13,8 @@ function initMap() {
 let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxNativeZoom: 19,
 	maxZoom: 19,
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors'
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap<\/a> contributors | Develop by <a href="https://github.com/josemamira">José Manuel Mira</a>'
+
 });
 
 let esriAttr = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community';
