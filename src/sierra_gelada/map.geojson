@@ -62,12 +62,12 @@
         {
       "type": "Feature",
       "properties": {
-        "id": 4,
-        "chapter": "4. Las minas de ocre rojo",
+        "id": 5,
+        "chapter": "5. Las minas de ocre rojo",
         "zoom": 18,
         "image": "img/parada5.jpg",
         "source-credit": "Leer más",
-        "source-link": "https://www.35geofis.ua.es/r3_p4/",
+        "source-link": "https://www.35geofis.ua.es/r3_p5/",
         "description": "Aprovechando diversos afloramientos de este mineral utilizado para fabricar pigmentos, en este extremo septentrional de la sierra, entre mediados del s. XIX y principios del XX (tal vez con orígenes anteriores) existió una modesta explotación minera que extraía el mineral intercalado entre las calizas con rudistas y las calcarenitas."
       },
       "geometry": {
@@ -82,12 +82,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 5,
-        "chapter": "5. El Faro / Punta de la Bombarda",
+        "id": 4,
+        "chapter": "4. El Faro / Punta de la Bombarda",
         "zoom": 18,
         "image": "img/parada4.jpg",
         "source-credit": "Leer más",
-        "source-link": "https://www.35geofis.ua.es/r3_p5/",
+        "source-link": "https://www.35geofis.ua.es/r3_p4/",
         "description": "Esta atalaya privilegiada de la bahía de Altea y de la propia Serra Gelada, deriva de la tectónica de fractura que afecta a ambos extremos de la sierra. Desde aquí se pueden reconocer alguno de los accidentes tectónicos más determinantes de este enclave, que ha sido utilizado históricamente como punto de vigilancia a lo largo de la historia debido a su acusado carácter semafórico."
       },
       "geometry": {
@@ -95,6 +95,25 @@
         "coordinates": [
          -0.0498615637503649,
           38.56329571468036
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "chapter": "6. Panorámica de la Marina Baixa desde el mirador de Sierra Cortina",
+        "zoom": 17,
+        "image": "img/parada6.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p6/",
+        "description": "El itinerario finaliza en la Serra Cortina, a los pies del imponente Puig Campana, desde donde se puede contemplar un conjunto de abanicos sobre glacis que descienden suavemente hacia una de las grandes urbes turísticas del Mediterráneo. Los usos del suelo ligados a la actividad turística y residencial contrastan con las huellas de usos tradicionales del espacio, fosilizados en el paisaje."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.16351445194341444,
+          38.56741999192901
         ]
       }
     }  
