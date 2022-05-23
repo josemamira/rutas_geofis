@@ -33,8 +33,8 @@ var baseMaps = {
 };
 
 var map = L.map('map', {
-	center: [39,0],
-	zoom: 8,
+	center: [38.38592,-0.51577],
+	zoom: 17,
 	//maxZoom:19,
 	scrollWheelZoom: false,
 	layers: [esriLayer,osmLayer ]
