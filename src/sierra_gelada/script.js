@@ -43,7 +43,7 @@ let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 let topograficoICV = L.tileLayer( "https://terramapas.icv.gva.es/mapabase_topografico/wmts/1.0.0/topografico_continuo_epsg3857/default/GMEPSG3857/{z}/{y}/{x}.png" ,{
 	maxNativeZoom: 19,
 	maxZoom: 19,
-	attribution: "| <a href='https://idev.gva.es/es'>IDEV&copy;ICV</a> | Develop by <a href='https://github.com/josemamira' target='_blank'>José Manuel Mira</a>"
+	attribution: "| <a href='https://idev.gva.es/es'>IDEV&copy;ICV</a> | Develop by <a href='https://github.com/josemamira'>José Manuel Mira</a>"
 	}
 );
 
@@ -62,8 +62,8 @@ var baseMaps = {
 };
 
 var map = L.map('map', {
-	center: [39,0],
-	zoom: 8,
+	center: [38.5642,-0.0566],
+	zoom: 16,
 	//maxZoom:19,
 	scrollWheelZoom: false,
 	layers: [esriLayer,topograficoICV]
