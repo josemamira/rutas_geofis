@@ -59,26 +59,7 @@
         ]
       }
     },
-        {
-      "type": "Feature",
-      "properties": {
-        "id": 5,
-        "chapter": "5. Las minas de ocre rojo",
-        "zoom": 18,
-        "image": "img/parada5.jpg",
-        "source-credit": "Leer más",
-        "source-link": "https://www.35geofis.ua.es/r3_p5/",
-        "description": "Aprovechando diversos afloramientos de este mineral utilizado para fabricar pigmentos, en este extremo septentrional de la sierra, entre mediados del s. XIX y principios del XX (tal vez con orígenes anteriores) existió una modesta explotación minera que extraía el mineral intercalado entre las calizas con rudistas y las calcarenitas."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-         -0.05196734442969888,
-          38.56442310745788
-          
-        ]
-      }
-    },
+
     {
       "type": "Feature",
       "properties": {
@@ -98,12 +79,34 @@
         ]
       }
     },
+        
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "chapter": "5. Las minas de ocre rojo",
+        "zoom": 18,
+        "image": "img/parada5.jpg",
+        "source-credit": "Leer más",
+        "source-link": "https://www.35geofis.ua.es/r3_p5/",
+        "description": "Aprovechando diversos afloramientos de este mineral utilizado para fabricar pigmentos, en este extremo septentrional de la sierra, entre mediados del s. XIX y principios del XX (tal vez con orígenes anteriores) existió una modesta explotación minera que extraía el mineral intercalado entre las calizas con rudistas y las calcarenitas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.05196734442969888,
+          38.56442310745788
+          
+        ]
+      }
+    },
+
         {
       "type": "Feature",
       "properties": {
         "id": 6,
         "chapter": "6. Panorámica de la Marina Baixa desde el mirador de Sierra Cortina",
-        "zoom": 17,
+        "zoom": 16,
         "image": "img/parada6.jpg",
         "source-credit": "Leer más",
         "source-link": "https://www.35geofis.ua.es/r3_p6/",
