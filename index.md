@@ -10,7 +10,7 @@
 
 5. Itinerario isla de Tabarca (Alicante) [enlace](https://josemamira.github.io/rutas_geofis/src/tabarca/) 
 
-6. Itinerario cabo Santa Pola (pendiente) [enlace](https://josemamira.github.io/rutas_geofis/src/santa_pola/) 
+6. Itinerario cabo Santa Pola [enlace](https://josemamira.github.io/rutas_geofis/src/santa_pola/) 
 
 ## Rutas enlazadas
 Todas las rutas están incluídas como viewframe en el portal  [https://www.35geofis.ua.es/](https://www.35geofis.ua.es/)
