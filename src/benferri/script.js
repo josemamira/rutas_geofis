@@ -145,7 +145,7 @@ map.fitBounds([
     });
 
     $('div#container1').addClass("inFocus");
-    $('#contents').append("<div class='space-at-the-bottom'><a href='#space-at-the-top'><i class='fa fa-chevron-up'></i></br><small>Top</small></a></div>");
+    $('#contents').append("<div class='space-at-the-bottom'><a href='#space-at-the-top'><i class='fa fa-chevron-up'></i></br><small>Subir</small></a></div>");
     map.fitBounds(ruta.getBounds());
     geojson.addTo(map);
     
